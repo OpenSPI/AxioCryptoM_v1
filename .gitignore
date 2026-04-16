@@ -1,0 +1,34 @@
+
+# STM32CubeIDE build output
+.settings/ 
+Debug/
+Release/
+*.d
+*.su
+*.cyclo
+*.ioc.bak
+STM32Make.make
+
+# Keil MDK
+*.uvguix.*
+*.scvd
+RTE/
+**/obj/
+**/lst/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.user
+*.sdf
+*.opensdf
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Logs
+*.log
+

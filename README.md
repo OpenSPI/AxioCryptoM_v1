@@ -26,13 +26,13 @@ Refer to the README of each MCU line for details and usage instructions.
 
 | # | Manufacturer | MCU Line | Part Number | Core | Board | KCMVP Cert. | Sample Code |
 |:---:|--------|--------|--------|-----|------|-------------|------|
-| 1 | Nuvoton | [M2351](M2351/project/README.md) | M2351ZIAAE | Cortex-M23 | Custom Board | ✅ | ✅ |
-| 2 | Nuvoton | [M2351](M2351/project/README.md) | M2351SIAAE | Cortex-M23 | Custom Board | ✅ | ✅ |
-| 3 | Nuvoton | [M2351](M2351/project/README.md) | M2351KIAAE | Cortex-M23 | NuMaker-PFM-M2351 | ✅ | ✅ |
-| 4 | Nuvoton | [M2354](M2354/project/README.md) | M2354LJFAE | Cortex-M23 | Custom Board | ✅ | ✅ |
-| 5 | Nuvoton | [M2354](M2354/project/README.md) | M2354SJFAE | Cortex-M23 | Custom Board | ✅ | ✅ |
-| 6 | Nuvoton | [M2354](M2354/project/README.md) | M2354KJFAE | Cortex-M23 | NuMaker-PFM-M2354 | ✅ | ✅ |
-| 7 | STMicroelectronics | [STM32H563-TZ](STM32H563-TZ/project/README.md) | STM32H563ZI | Cortex-M33 | NUCLEO-H563ZI | ✅ | ✅ |
+| 1 | Nuvoton | [M2351](M2351/README.md) | M2351ZIAAE | Cortex-M23 | Custom Board | ✅ | ✅ |
+| 2 | Nuvoton | [M2351](M2351/README.md) | M2351SIAAE | Cortex-M23 | Custom Board | ✅ | ✅ |
+| 3 | Nuvoton | [M2351](M2351/README.md) | M2351KIAAE | Cortex-M23 | NuMaker-PFM-M2351 | ✅ | ✅ |
+| 4 | Nuvoton | [M2354](M2354/README.md) | M2354LJFAE | Cortex-M23 | Custom Board | ✅ | ✅ |
+| 5 | Nuvoton | [M2354](M2354/README.md) | M2354SJFAE | Cortex-M23 | Custom Board | ✅ | ✅ |
+| 6 | Nuvoton | [M2354](M2354/README.md) | M2354KJFAE | Cortex-M23 | NuMaker-PFM-M2354 | ✅ | ✅ |
+| 7 | STMicroelectronics | [STM32H563-TZ](STM32H563-TZ/README.md) | STM32H563ZI | Cortex-M33 | NUCLEO-H563ZI | ✅ | ✅ |
 | 8 | STMicroelectronics | STM32H562 | STM32H562VG | Cortex-M33 | Custom Board | ✅ | In Preparation |
 | 9 | Renesas | RA6 | R7FA6M4AF3CFB | Cortex-M33 | Custom Board | ✅ | In Preparation |
 | 10 | Renesas | RA6 | R7FA6M5BH3CFC | Cortex-M33 | Custom Board | ✅ | In Preparation |

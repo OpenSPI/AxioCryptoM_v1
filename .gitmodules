@@ -1,0 +1,7 @@
+[submodule "M2351BSP"]
+	path = M2351BSP
+	url = https://github.com/OpenNuvoton/M2351BSP.git
+
+[submodule "M2354BSP"]
+	path = M2354BSP
+	url = https://github.com/OpenNuvoton/M2354BSP.git
