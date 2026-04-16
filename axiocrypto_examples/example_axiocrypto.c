@@ -585,14 +585,19 @@ int example_axiocrypto(const char *arg)
         printf("ERROR: axiocrypto_init failed with code %d\n", ret);
         return ret;
     }
-		char ver[128] = {0};
-		operation_mode_t opmode = OP_MODE_NOTHING;
-		ret = axiocrypto_info(ver, sizeof(ver), &opmode);
 
     if (ret == CRYPTO_ERR_ALREADY_INIT) {
         printf("INFO: AxioCrypto already initialized\n\n");
     } else {
         printf("SUCCESS: AxioCrypto initialized\n\n");
+    }
+
+    char ver[128] = {0};
+    operation_mode_t opmode = OP_MODE_NOTHING;
+    ret = axiocrypto_info(ver, sizeof(ver), &opmode);
+    if(ret != CRYPTO_SUCCESS){
+        printf("failed to get axiocrypto operation mode");
+        return ret;
     }
 
     if(!strcmp(arg, "all")){
